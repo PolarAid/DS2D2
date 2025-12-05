@@ -1,0 +1,5 @@
+from .base import BaseDetector
+from .ds2d2_faster_rcnn_amplifier import DS2D2_FasterRCNN_Amplifier
+from .ds2d2_faster_rcnn import DS2D2_FasterRCNN
+from .ds2d2_retinanet_amplifier import DS2D2_RetinaNet_Amplifier
+from .ds2d2_retinanet import DS2D2_RetinaNet
