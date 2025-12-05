@@ -48,10 +48,10 @@ pip install -v -e .
 ```
 
 ## Distillation Examples
-Assuming you have put the reformated dataset (exampled as DIOR) into \$(DATA_PATH) and have installed $\rm DS^2D^2$ into \$(DS2D2_PATH):
+Assuming you have put the reformated dataset (exampled as DIOR) into (DATA_PATH) and have installed $\rm DS^2D^2$ into (DS2D2_PATH):
 ```
-cd $(DS2D2_PATH)
-ln -s $(DATA_PATH) ./
+cd (DS2D2_PATH)
+ln -s (DATA_PATH) ./
 
 # train teacher
 ./tools/dist_train.sh configs/faster_rcnn/faster-rcnn_r101_fpn_2x_dior.py 4 --auto-scale-lr
