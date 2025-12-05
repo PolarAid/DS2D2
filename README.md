@@ -48,7 +48,7 @@ pip install -v -e .
 ```
 
 ## Distillation Examples
-Assuming you have put the reformated dataset (exampled as DIOR) into $(DATA_PATH) and have installed $\rm DS^2D^2$ into $(DS2D2_PATH):
+Assuming you have put the reformated dataset (exampled as DIOR) into \$(DATA_PATH) and have installed $\rm DS^2D^2$ into \$(DS2D2_PATH):
 ```
 cd $(DS2D2_PATH)
 ln -s $(DATA_PATH) ./
